@@ -9,3 +9,4 @@ Just a small repository for some training with Git
 - git add \<filename\>
 - git commit -m "commit message"
 - git push origin \<branchname\>
+- git pull
