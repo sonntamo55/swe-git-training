@@ -2,10 +2,33 @@
 Just a small repository for some training with Git
 
 - git clone \<url\>
-- git branch \<branchname\>
-- git checkout \<branchname\>
-- git status
+  - Clones a remote git repository
 - git branch --list
+  - Lists all branches
+- git branch \<branch-name\>
+  - Creates a new branch with the given name
+- git branch -d \<branch-name\>
+  - Deletes a branch locally
+- git push -d origin \<branch-name\>
+  - Deletes a remote branch
+- git checkout \<branch-name\>
+  - Switches to the branch with the given name 
 - git add \<filename\>
+  - Adds a file to be committed later
+- git reset \<filename\>
+  - Removes a file from the commit-list
+- git status
+  - Shows added files
 - git commit -m "commit message"
+  - Commits all added files locally with the given commit message
 - git push origin \<branchname\>
+  - Pushes a local branch to the remote repository
+- git pull
+  - Updates a local branch with remote changes
+- git restore \<filename\>
+  - Revert changes of a file
+- git diff \<branch-name\>
+  - Shows the difference between the curretn and the specified branch
+- git diff \<branch-name\> \<filename\>
+  - Shows the difference between a file in the current and the specified branch
+- git rebase \<branch-name\>
